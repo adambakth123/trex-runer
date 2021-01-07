@@ -117,7 +117,8 @@ function draw() {
     }
   }
   
-  
+  textSize(20);
+  text("HighestScore"+localStorage["HighestScore"],30,20);
   drawSprites();
 }
 
